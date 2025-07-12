@@ -1,0 +1,18 @@
+import os
+import shutil
+import send2trash
+
+#shutil.move("mi_archivo.txt","C:\\Users\\EDMG0\\Documents\\Proyectos_python\\curso_udemy\\Dia_9")
+#send2trash.send2trash("registro.txt")
+ruta ="C:\\Users\\EDMG0\\Documents\\Proyectos_python\\curso_udemy\\Dia_9"
+
+print(os.walk("C:\\Users\\EDMG0\\Documents\\Proyectos_python\\curso_udemy\\Dia_9"))
+
+for carpeta,subcarpeta,archivo in os.walk(ruta):
+    print (f" En la carpeta: {carpeta}")
+    print (f" Las subcarpetas son : {subcarpeta}")
+    for sub in subcarpeta: 
+        print (f" {sub}")
+    print( "los archivos son :")
+    for arch in archivo: 
+        print (f"{arch}")
