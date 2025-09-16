@@ -16,6 +16,37 @@
 import re
 
 
+texto = "CALAMARDO HOLA"
+
+patron = "HOLA"
+
+busqueda = re.search(patron,texto)
+busqueda2 = re.findall(patron, texto)
+#.span, . end 
+print(busqueda.start())
+print(busqueda2)
+
+
+
+
+numero = " llama al 967-184-9463"
+
+patron = re.compile(r"(\d{3})-(\d{3})-(\d{4})")
+resultado = re.search(patron,numero)
+print(resultado.group(1))
+
+
+#
+
+
+
+#clave = input("Clave: " )
+
+patron = r"\D{1}\w{7}"
+
+#chequear = re.search(patron, clave)
+
+#print(chequear)
 
 
 
@@ -26,7 +57,7 @@ def verificar_email(email):
 
 
 
-    patron = r"\w{1,10}@\w{1,10}.com"
+    patron = r"+\w @  +\w .com ?.br"
     resultado = re.search(patron,email)
 
     if resultado ==True: 
@@ -35,7 +66,7 @@ def verificar_email(email):
             print("La dirección de email es incorrecta")
 
 
-verificar_email(email)
+#verificar_email(email)
 
 
 #practica 2 
@@ -43,9 +74,9 @@ verificar_email(email)
 saludo = "Hola, bebe"
 
 def verificar_saludo(saludo):
-    patron=(r"Hola\w +1")
+    patron=(r"^Hola")
     resultado = re.search(patron,saludo)
-    if resultado ==True: 
+    if resultado: 
         print ("Ok")
     else: 
         print("No has saludado")
@@ -58,7 +89,7 @@ cp= "af1234"
 def verificar_cp(cp):
     patron=(r"\w{2}\d{4}")
     resultado = re.search(patron,cp)
-    if resultado ==True: 
+    if resultado: 
         print ("Ok")
     else: 
         print("El código postal ingresado no es correcto")

@@ -9,8 +9,8 @@ print(mi_fecha)
 import datetime
 
 mi_fecha = datetime.date(1999,2,3)
-
-
+datetime.date(1999,2,3)
+print(mi_fecha)
 #practica 2 
 
 hoy = datetime.date.today()

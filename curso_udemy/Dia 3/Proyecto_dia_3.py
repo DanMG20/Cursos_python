@@ -41,7 +41,6 @@ print("Letra inicial: "+input_texto[0] + "  "+"Letra final: "+input_texto[-1])
 texto_alreves= input_texto[::-1]
 print("El texto al revés es:" + texto_alreves)
 existe_python = "Python" in input_texto
-
 if existe_python == True: 
     print ("la palabra Python está en el texto")
 else: 
