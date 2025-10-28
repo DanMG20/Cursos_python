@@ -1,0 +1,34 @@
+
+Speech Entrevistas de Software: 
+
+
+Durante mi temporada en la universidad y también en el trabajo, me di cuenta de que tenía cierta facilidad y tendencia a aprender y enfocar mis proyectos hacia el lado del software,
+Las clases de programación que lleve se me hicieron bastante entretenidas y le ponía bastante intéres y dedicación a mis proyectos, más tarde en la carrera empezamos a usar el análisis de datos si bien básico pero imprescindible pues la aeronáutica es una rama de ingeniería que requiere mucho análisis de este estilo, me empezó a atraer más, en el trabajo como Amazon, 
+también pase la mayor parte de mi tiempo tratando de implementar soluciones a problemas en base al desarrollo de aplicaciones que hicieran más fácil y sencillo algunos procesos, 
+que ya estaban estandarizados, pero que sin duda podían mejorar, pero al no ser esta mi función principal, la mayoría de veces me vi frustrado, y al analizarlo con más detenimiento, 
+y sobre todo a dedicarle más tiempo libre a aprender tecnologías de desarrollo y lenguajes, me di cuenta que la programación y el desarrollo me apasionan mucho, entonces decidí volcarme por
+completo a aprender y desarrollar proyectos útiles por mi cuenta para seguir aprendiendo y sobre todo tener la oportunidad de participar con un equipo de desarrollo en el cual pueda aportar
+pero a la vez aprender mucho. 
+
+
+
+
+Principio Definir objetivos del proyecto,
+
+
+Desarrollar un Dashboard estádistico que funcione a manera de reporte diario La idea es hacerlo con YouTube, Instagram, y Tiktok, podría funcionar incluso con Facebook 
+No soy un experto en desarrollo web, mas bien estoy empezando y no se diga ya de backend asi que trataré de hacerlo lo más sencillo y minimalista posible, pienso explorar Bootstrap para ver si hay plantillas de dashboards estadisticos ya prediseñados, Me gustaría hacerlo en un tiempo limite de 2 meses pero no se si esto es alcanzable. 
+
+Funcionalidades: 
+
+-Mostrar en un dashboard Toda la información estádistica  de mi canal de YouTube histórica 
+-Permitir el uso de algunos filtros como fecha, views, suscripciones, etc, (igual debo investigar sobre las métricas que serían de relevancia) 
+-Que la aplicación realice su actualización de datos cada mañana de ser posible.
+
+Herramientas a utilizar:
+
+-FLASK para el backend 
+-Bootstrap para la plantilla del dashboard 
+-HTML 
+-Dependiendo será un SQLITE O simplemente un json para guardar los datos 
+-Automatización por verse 

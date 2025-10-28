@@ -1,0 +1,5 @@
+HOST="127.0.0.1"
+USER = "postgres"
+PASSWORD="admin"
+PORT="5432"
+DATABASE="usuarios_gestionapp"

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+    <p>Total: {{ tareas|length }}</p>
+    <ul>
+        {% for tarea in tareas %}
+            <li>{{ tarea.titulo }}</li>  {# usa el nombre del campo real #}
+        {% empty %}
+            <li>No hay tareas</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
